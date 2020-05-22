@@ -64,7 +64,8 @@ const Signup = () => {
 						<input className="input100" type="password" onChange={handleChange('password')} value={password} placeholder="Password"/>
 						<span className="focus-input100"></span>
 					</div>
-
+          {showSuccess()}
+          {showError()}
 					<div className="container-login100-form-btn m-t-17">
 						<button onClick={clickSubmit} className="login100-form-btn">
 							Submit
@@ -92,8 +93,6 @@ const Signup = () => {
 
   return (
     <Layout title="Signup" description="signup to MybabesNg" background={Background}>
-    {showSuccess()}
-    {showError()}
     {signUpForm()}
   </Layout>
   )

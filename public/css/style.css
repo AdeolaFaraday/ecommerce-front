@@ -9835,6 +9835,36 @@ textarea.form-control {
           color: #fff;
           background: black; }
 
+          html {
+            scroll-behavior: smooth;
+          }
+
+           #movetop {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 10px;
+            z-index: 99;
+            font-size: 12px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            color: #fff;
+            width: 42px;
+            height: 42px;
+            background: #82ae46;
+            padding: 0;
+            line-height: 42px;
+            transition: 0.5s ease-out;
+            border-radius: 50%;
+          }
+
+           #movetop:hover {
+            background: #82ae46;
+            opacity: 0.9;
+          }
+
+
 .search-form .form-group {
   position: relative; }
   .search-form .form-group input {
@@ -9855,73 +9885,10 @@ textarea.form-control {
       /* Firefox 18- */
       color: black; }
     .search-form .form-group input:focus, .search-form .form-group input:active {
-      border-color: #82ae46 !important; }
+      border-color: #82ae46 !important;
+    }
 
-.search-form .icon {
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  color: #000000; }
 
-.sidebar-box {
-  margin-bottom: 30px;
-  padding: 25px;
-  font-size: 15px;
-  width: 100%;
-  background: #fff; }
-  .sidebar-box *:last-child {
-    margin-bottom: 0; }
-  .sidebar-box h3.heading {
-    font-size: 20px;
-    margin-bottom: 30px; }
-
-.categories, .sidelink {
-  padding: 0; }
-  .categories li, .sidelink li {
-    position: relative;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px dotted #dee2e6;
-    list-style: none; }
-    .categories li:last-child, .sidelink li:last-child {
-      margin-bottom: 0;
-      border-bottom: none;
-      padding-bottom: 0; }
-    .categories li a, .sidelink li a {
-      display: block;
-      color: #000000; }
-      .categories li a span, .sidelink li a span {
-        position: absolute;
-        right: 0;
-        top: 0;
-        color: #ccc; }
-    .categories li.active a, .sidelink li.active a {
-      color: #000000;
-      font-style: italic; }
-
-.sidebar-box-2 {
-  display: block;
-  width: 100%;
-  margin-bottom: 40px; }
-  .sidebar-box-2 .heading {
-    font-size: 20px;
-    text-transform: uppercase; }
-    .sidebar-box-2 .heading a {
-      color: #000000; }
-  .sidebar-box-2 ul {
-    margin: 0;
-    padding: 0; }
-    .sidebar-box-2 ul li {
-      font-size: 12px;
-      list-style: none;
-      margin-bottom: 10px; }
-      .sidebar-box-2 ul li a {
-  color: #000000; }
-
-  
 #ftco-loader {
   position: fixed;
   width: 96px;

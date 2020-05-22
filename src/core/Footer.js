@@ -49,9 +49,9 @@ const Footer = () => (
 							<div className="footer_contact">
 									<div className="footer_title">Quick Links</div>
 									<ul className="footer_social_list d-flex flex-row align-items-start justify-content-start">
-										<li><Link to="/"><i className="fab fa-3x fa-facebook-f" aria-hidden="true"></i></Link></li>
-										<li><Link to="/"><i className="fab fa-3x fa-whatsapp" aria-hidden="true"></i></Link></li>
-										<li><Link to="/"><i className="fab fa-3x fa-instagram" aria-hidden="true"></i></Link></li>
+										<li><a href="http://facebook.com/mybabesng"><i className="fab fa-3x fa-facebook-f" aria-hidden="true"></i></a></li>
+										<li><a href="http://wa.me/+2349058328175"><i className="fab fa-3x fa-whatsapp" aria-hidden="true"></i></a></li>
+										<li><a href="http://instagram.com/mybabesng"><i className="fab fa-3x fa-instagram" aria-hidden="true"></i></a></li>
 									</ul>
 							</div>
 						</div>
@@ -68,7 +68,7 @@ const Footer = () => (
                 </div>
                 <div class="ml-md-auto order-md-2 order-1">
 									<div class="d-flex flex-row align-items-center justify-content-start">
-                  Devloped by faradayTech
+                  Developed by faradayTech
 									</div>
 								</div>
 							</div>

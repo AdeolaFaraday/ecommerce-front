@@ -36,7 +36,7 @@ const AdminDashboard = () => {
 
     return (<Layout title="Dashboard" description={`Hello ${name}`} background={Background} className="container">
         <div className="row mt-5">
-            <div className="col-lg-3 col-sm-12">
+            <div className="col-lg-3 col-sm-12 mb-2">
                 {adminLinks()}
             </div>
 

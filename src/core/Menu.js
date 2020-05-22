@@ -25,7 +25,7 @@ const Menu = ({history}) => (
                     </div>
                     <div className="col-md pr-4 d-flex topper align-items-center">
                         <div className="icon bg-secondary mr-2 d-flex justify-content-center align-items-center"><span className="icon-paper-plane"></span></div>
-                        <span className="text">ayeniolajumoke@gmail.com</span>
+                        <span className="text">ayeniolajumoke01@gmail.com</span>
                     </div>
                     <div className="col-md pr-4 d-flex topper align-items-center">
                         <div className="icon bg-tertiary mr-2 d-flex justify-content-center align-items-center"><span className="icon-phone2"></span></div>

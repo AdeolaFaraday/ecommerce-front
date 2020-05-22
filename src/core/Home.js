@@ -104,7 +104,7 @@ useEffect(() => {
                   <div className="container">
                     <div className="row products_row">
             {productsByArrival.map((product, i) => (
-                    <div key={i} className="col-lg-3 col-md-4">
+                    <div key={i} className="col-lg-3 col-md-6 col-md-4">
                         <Card product={product} />
                     </div>
                 ))}
@@ -126,7 +126,7 @@ useEffect(() => {
                   <div className="container">
                     <div className="row products_row">
                     {productsBySell.map((product, i) => (
-                    <div key={i} className="col-lg-3 col-md-4">
+                    <div key={i} className="col-lg-3 col-md-6 col-md-4">
                         <Card product={product} />
                     </div>
                 ))}

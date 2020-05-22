@@ -50,7 +50,7 @@ const Card = ({product,
         <div>
           <div className="input-group mb-3">
             <div className="input-group-prepend">
-              <span className="input-group-text">Adjust Quantity</span>
+              <span className="input-group-text">Quantity</span>
             </div>
             <input type="number" className="form-control" value={count} onChange={handleChange(product._id)} />
           </div>

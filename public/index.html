@@ -69,7 +69,6 @@
     <div id="root"></div>
 
 
-    <body>
       <!-- move top -->
       <button onClick="topFunction()" id="movetop" title="Go to top">
           <span class="fa fa-arrow-up" aria-hidden="true"></span>
@@ -90,6 +89,7 @@
 
           // When the user clicks on the button, scroll to the top of the document
           function topFunction() {
+              document.body.scrollTop = 0;
               document.documentElement.scrollTop = 0;
           }
       </script>

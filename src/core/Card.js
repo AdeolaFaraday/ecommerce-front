@@ -101,7 +101,7 @@ const Card = ({product,
               <div>
                 <div className="product_name"><a>{product.name && product.name}</a></div>
                 <div className="product_category">{product.category && product.category.name}</div>
-                <div className="product_description">{product.description}</div>
+                <div className="product_description">{product.description.substring(0, 25)}</div>
                 {showStock(product.quantity)}
               </div>
             </div>

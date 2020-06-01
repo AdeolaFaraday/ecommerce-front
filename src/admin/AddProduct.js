@@ -21,7 +21,7 @@ const AddProduct = () => {
         formData: ''
     })
 
-    
+
 
     const {user, token} = isAuthenticated()
 
@@ -104,7 +104,7 @@ const AddProduct = () => {
 
         <div className="form-group">
             <label className="text-muted">Description</label>
-            <textarea onChange={handleChange('description')} className="form-control" value={description} />
+            <textarea onChange={handleChange('description')} placeholder="Description should not be more than 25 characters" className="form-control" value={description} />
         </div>
 
         <div className="form-group">
